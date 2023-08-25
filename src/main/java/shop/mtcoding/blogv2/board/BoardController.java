@@ -13,5 +13,11 @@ public class BoardController {
         return "user/updateForm";
     }
 
+    @PostMapping("/board/{id}/delete")
+    public  String delete() {
+
+    return ("/");
+    }
+
 
 }
