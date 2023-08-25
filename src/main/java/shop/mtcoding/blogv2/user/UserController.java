@@ -7,6 +7,14 @@ import org.springframework.web.bind.annotation.PostMapping;
 @Controller
 public class UserController {
 
+    @GetMapping("/loginForm")
+    public String loginForm() {
+        return "user/loginForm";
+    } 
+
+    @PostMapping("/login")
+    public String login() {
+        return "redirect:/";
     
     @GetMapping("/joinForm")
     public String joinForm() {
