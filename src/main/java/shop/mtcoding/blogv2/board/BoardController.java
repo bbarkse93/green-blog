@@ -9,7 +9,7 @@ public class BoardController {
 
     @GetMapping("/user/updateForm")
     public String updateForm() {
-     
+     System.out.println("hello");
         return "user/updateForm";
     }
 
