@@ -15,6 +15,17 @@ public class UserController {
     @PostMapping("/login")
     public String login() {
         return "redirect:/";
+    
+    @GetMapping("/joinForm")
+    public String joinForm() {
+        return "user/joinForm";
+    }
+
+    @PostMapping("/join")
+    public String join() {
+        System.out.println();
+
+        return "user/loginForm"; // persist 초기화
     }
 
 }
