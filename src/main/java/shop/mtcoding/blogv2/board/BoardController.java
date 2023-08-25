@@ -12,14 +12,17 @@ public class BoardController {
      System.out.println("hello");
         return "user/updateForm";
     }
+  
     @GetMapping("/board/{id}")
     public String detail() {
     
         return "board/detail";
     }
+  
+    @PostMapping("/board/{id}/delete")
+    public  String delete() {
 
-
-    
-    
+    return ("/");
+    }
 
 }
