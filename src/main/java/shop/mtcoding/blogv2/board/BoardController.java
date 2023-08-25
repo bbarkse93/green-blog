@@ -9,9 +9,8 @@ public class BoardController {
 
     @GetMapping("/user/updateForm")
     public String updateForm() {
-     
+
         return "user/updateForm";
     }
-
 
 }
