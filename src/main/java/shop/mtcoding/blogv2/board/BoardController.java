@@ -26,4 +26,10 @@ System.out.println("aslkdsgn");
     return ("/");
     }
 
+      
+    @PostMapping("/user/{id}/delete")
+    public  String zxc2() {
+System.out.println("aslkdsgn");
+    return ("/");
+    }
 }
