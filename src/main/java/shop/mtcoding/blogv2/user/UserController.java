@@ -37,9 +37,11 @@ public class UserController {
 
     @PostMapping("/join")
     public String join() {
-        System.out.println();
+        System.out.println("hello");
 
         return "user/loginForm"; // persist 초기화
     }
+
+    //asdadasd
 
 }
